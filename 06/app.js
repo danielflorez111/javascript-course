@@ -22,6 +22,8 @@ var controller = (function (budgetCtrl, UICtrl) {
         // calculate the budget
 
         // display the budget on UI
+
+        console.log('Worked');
     }
 
     document.querySelector('.add__btn').addEventListener('click', ctrlAddItem);
